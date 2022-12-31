@@ -33,6 +33,7 @@ val = Number([1,2,3]);
 val = parseInt('100.43');
 val = parseFloat('123.34');
 
+// JS converted 4 to sting and concanated it;
 
 const val1 = String(5);
 const val2 = 4;

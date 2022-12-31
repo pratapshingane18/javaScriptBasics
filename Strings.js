@@ -61,4 +61,6 @@ val = str.replace("Prat","Prats" );
 
 // Include (if something is inside)
 val = str.includes('foo');
+
+
 console.log(val);
