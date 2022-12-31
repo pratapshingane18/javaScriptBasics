@@ -1,0 +1,1 @@
+console.log(val.toFixed(2));
