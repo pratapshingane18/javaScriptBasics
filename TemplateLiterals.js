@@ -10,21 +10,13 @@ let html;
 html='<ul><li>Name: ' + names + '</li><li>Age: ' + age +'</li><li> ' + job + '</li><li>' + city+ '</li></ul>';
 
 
-//With Template Literals
+//With Template Literals (using backticks `` and $)
 
-html = `
-<ul>
+html = ` <ul>
 <li>Name: ${names}</li>
 <li>Age: ${age}</li>
 <li>job: ${job}</li>
 <li>City: ${city}</li>
-
-
-
-</ul>
-
-    
-
-`
+</ul> `
 document.body.innerHTML = html;
 
