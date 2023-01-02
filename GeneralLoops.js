@@ -1,18 +1,18 @@
 // FOR LOOP
 
-// for(let i = 0; i < 10; i++){
-//   if(i === 2){
-//     console.log('2 is my favorite number');
-//     continue;
-//   }
+for(let i = 0; i < 10; i++){
+  if(i === 2){
+    console.log('2 is my favorite number');
+    continue;
+  }
 
-//   if(i === 5){
-//     console.log('Stop the loop');
-//     break;
-//   }
+  if(i === 5){
+    console.log('Stop the loop');
+    break;
+  }
 
-//   console.log('Number '+ i);
-// }
+  console.log('Number '+ i);
+}
 
 // WHILE LOOP
 
@@ -63,12 +63,12 @@ const cars = ['Ford', 'Chevy', 'Honda', 'Toyota'];
 
 
 // FOR IN LOOP
-const user = {
-  firstName: 'John', 
-  lastName: 'Doe',
-  age: 40
-}
+// const user = {
+//   firstName: 'John', 
+//   lastName: 'Doe',
+//   age: 40
+// }
 
-for(let x in user){
-  console.log(`${x} : ${user[x]}`);
-}
+// for(let x in user){
+//   console.log(`${x} : ${user[x]}`);
+// }
