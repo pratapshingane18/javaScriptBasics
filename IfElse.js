@@ -62,23 +62,23 @@ const color = 'yellow';
 
 // LOGICAL OPERATORS
 
-const name = 'Steve';
+const names = 'Prats';
 const age = 70;
 
 // AND &&
 if(age > 0 && age < 12){
-  console.log(`${name} is a child`);
+  console.log(`${names} is a child`);
 } else if(age >= 13 && age <= 19){
-  console.log(`${name} is a teenager`);
+  console.log(`${names} is a teenager`);
 } else {
-  console.log(`${name} is an adult`);
+  console.log(`${names} is an adult`);
 }
 
 // OR ||
 if(age < 16 || age > 65){
-  console.log(`${name} can not run in race`);
+  console.log(`${names} can not run in race`);
 } else {
-  console.log(`${name} is registered for the race`);
+  console.log(`${names} is registered for the race`);
 }
 
 // TERNARY OPERATOR
