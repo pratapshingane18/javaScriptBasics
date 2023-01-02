@@ -1,12 +1,12 @@
 const person = {
-  firstName: 'Steve',
-  lastName: 'Smith',
-  age: 36,
-  email: 'steve@aol.com',
-  hobbies: ['music', 'sports'],
+  firstName: 'prats',
+  lastName: 'There',
+  age: 21,
+  email: 'prats18.com',
+  hobbies: ['Cooking', 'run'],
   address: {
-    city: 'Miami',
-    state: 'FL'
+    city: 'Sangli',
+    state: 'MH'
   },
   getBirthYear: function(){
     return 2017 - this.age;
@@ -28,9 +28,9 @@ val = person.getBirthYear();
 console.log(val);
 
 const people = [
-  {name: 'John', age: 30},
-  {name: 'Mike', age: 23},
-  {name: 'Nancy', age: 40}
+  {name: 'Lomr', age: 30},
+  {name: 'trie', age: 23},
+  {name: 'liesy', age: 40}
 ];
 
 for(let i = 0; i < people.length; i++){

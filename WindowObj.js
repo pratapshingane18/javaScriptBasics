@@ -1,13 +1,14 @@
 // WINDOW METHODS / OBJECTS / PROPERTIES
 
 // Alert
+//window.alert('hello); 
 //alert('Hello World');
 
 // Prompt
 // const input = prompt();
 // alert(input);
 
-// Confirm
+// Confirm (if someone click delete accidently)
 // if(confirm('Are you sure')){
 //   console.log('YES');
 // } else {
@@ -47,12 +48,12 @@ val = window.location.search;
 
 // Navigator Object
 val = window.navigator;
-val = window.navigator.appName;
-val = window.navigator.appVersion;
-val = window.navigator.userAgent;
-val = window.navigator.platform;
-val = window.navigator.vendor;
-val = window.navigator.language;
+// val = window.navigator.appName;
+// val = window.navigator.appVersion;
+// val = window.navigator.userAgent;
+// val = window.navigator.platform;
+// val = window.navigator.vendor;
+// val = window.navigator.language;
 
 
 
